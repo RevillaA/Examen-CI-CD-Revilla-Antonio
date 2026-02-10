@@ -38,6 +38,5 @@ test('numero invalido', () => {
 });
 
 test('ventana invalida', () => {
-  expect(() => movingAverage([1,2], 5))
-    .toThrow(RangeError);
+  expect(() => movingAverage([1,2], 5)).toThrow(RangeError);
 });
