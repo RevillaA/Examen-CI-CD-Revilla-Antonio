@@ -2,7 +2,7 @@
 const { toCelsius, toFahrenheit, movingAverage } = require('../src/utils/conversions');
 
 test('32F -> 0C', () => {
-  expect(toCelsius(32)).toBe(3.0);
+  expect(toCelsius(32)).toBe(0.0);
 });
 
 test('0C -> 32F', () => {
