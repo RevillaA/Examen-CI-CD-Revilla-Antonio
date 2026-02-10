@@ -5,7 +5,7 @@ function round(value, decimals) {
 
 // Revilla Antonio
 function toCelsius(f) {
-  if (!Number.isFinite(f)) throw new TypeError('Numero invalido');
+  if (!Number.isFinite(f)) throw new TypeError("Numero invalido");
   return round((f - 32) * 5 / 9, 1);
 }
 
