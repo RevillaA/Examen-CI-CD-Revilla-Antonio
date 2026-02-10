@@ -1,0 +1,19 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f5f7fa;
+  text-align: center;
+  margin: 0;
+}
+
+header, footer {
+  background: #2c3e50;
+  color: white;
+  padding: 10px;
+}
+
+main {
+  margin: 40px auto;
+  max-width: 600px;
+}
+
+ul { list-style: none; padding: 0; }
